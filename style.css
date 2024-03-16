@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.img{
+    display: inline-block;
+    margin: 2.5% 25%;
+}
+.insta_img{
+    width: 380px;
+}
+
+.form{
+    border: .5px solid rgb(153, 153, 153);
+    padding: 5px;
+    position: absolute;
+    right: 23%;
+    top: 8%;
+    width: 370px;
+}
+.insta_logo{
+    width: 180px;
+    display: block;
+    margin: 2% auto;
+}
+
+.email_pass{
+    display: block;
+    padding: 5px;
+    color: black;
+    margin: 5px auto;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    border: .2px solid rgb(153, 153, 153);
+    width: 300px;
+    border-radius: 2px;
+    height: 25px;
+
+}
+.main_form{
+    
+    margin-top: 7%;
+}
+.login_btn{
+    width: 310px;
+    padding: 3px;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 17px auto;
+    background-color: #4a9afc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    height: 28px;
+}
+#password{
+    margin-top: 10px;
+}
+.login_btn:hover{
+    background-color: #2587ff;
+}
+.line{
+    height: .2px;
+    background-color: rgb(170, 170, 170);
+    margin-bottom: 5px;
+    width: 120px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.option{
+    margin-left: 15px;
+    color: rgb(100, 100, 100);
+    margin-top: 10px;
+}
+.line_2{
+    margin-left: 20px;
+}
+.divider{
+    display: block;
+    margin: 8% auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.facebook_img{
+    display: inline-block;
+    width: 20px;
+}
+.log_face{
+    font-size: 17px;
+    margin-left: 7px;
+}
+.facebook_login{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-family: "Roboto", sans-serif;
+    width: 52%;
+    margin: 0% auto;
+}
+
+.forg_pass{
+    display: flex;
+    width: 150px;
+    margin: 0% 35%;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sign_up{
+    display: inline-block;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    right: 23%;
+    border: .5px solid rgb(153, 153, 153);
+    padding: 18px;
+    width: 345px;
+    bottom: 26%;
+
+}
+.content{
+    width: 60%;
+    margin: 0% auto;
+}
+b{
+    color: #0073ff;
+    cursor: pointer;
+}
+
+.app{
+    display: inline-block;
+    position: absolute;
+    right: 23.5%;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 0% 10%;
+    bottom: 22%;
+
+}
+
+.playstore{
+    width: 150px;
+}
+.micro{
+    width: 120px;
+}
+.play_micro{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 12%;
+    right: 27%;
+}
+
+.pass{
+    display: block;
+}
+.hide_show{
+    position: absolute;
+    display: inline-block;
+    font-size: 13px;
+    top: 40.9%;
+    cursor: pointer;
+    right: 12%;
+    font-family: "Roboto", sans-serif;
+
+}
+
+#show{
+    display: none;
+    font-family: "Roboto", sans-serif;
+}
